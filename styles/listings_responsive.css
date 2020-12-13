@@ -1,0 +1,231 @@
+/************
+1. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.header_bar
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.header_content
+	{
+		padding-left: 30px;
+	}
+	.main_nav
+	{
+		margin-left: 106px;
+	}
+	.header_list ul li:not(:last-of-type)
+	{
+		margin-right: 24px;
+	}
+	.header_list ul li > div
+	{
+		width: 17px;
+		height: 17px;
+	}
+	.header_list ul li span
+	{
+		font-size: 10px;
+		margin-left: 8px;
+	}
+}
+
+
+
+/************
+2. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.main_nav ul li:not(:last-of-type)
+	{
+		margin-right: 13px;
+	}
+	.main_nav
+	{
+		margin-left: 81px;
+	}
+	.submit
+	{
+		width: 204px;
+	}
+	.main_nav ul li a
+	{
+		font-size: 14px;
+	}
+	.listing_info ul li:not(:last-of-type)
+	{
+		margin-right: 25px;
+	}
+	.listing_location
+	{
+		padding-left: 25px !important;
+	}
+	.listing_location a
+	{
+		font-size: 14px;
+		margin-left: 15px;
+	}
+	.prop_location img
+	{
+		margin-top: -4px;
+	}
+	.footer_content
+	{
+		padding-bottom: 23px;
+	}
+	.footer_col
+	{
+		margin-bottom: 60px;
+	}
+	.footer_listing_location a
+	{
+		max-width: none;
+	}
+}
+
+
+/************
+3. 991px
+************/
+
+@media only screen and (max-width: 991px){
+	.search_inputs{
+		width: 100%;
+	}
+	.search_input{
+		width: 100%;
+	}
+	.search_input:not(:last-of-type)
+	{
+		margin-bottom: 11px;
+	}
+	.search_button
+	{
+		margin-top: 13px;
+	}
+	.listing_box
+	{
+		width: calc(100% / 2);
+	}
+	.listing_location a
+	{
+		max-width: 100%;
+	}
+	.footer_nav ul li:not(:last-of-type)
+	{
+		margin-right: 30px;
+	}
+}
+
+
+/************
+4. 767px
+************/
+
+@media only screen and (max-width: 767px){
+	.listing_tags
+	{
+		width: 100%;
+	}
+	.sorting_container
+	{
+		width: auto;
+		padding-left: 0;
+	}
+	.sort span
+	{
+		font-size: 14px;
+	}
+	.listing_tags ul li
+	{
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.listing_tags ul li:not(:last-of-type)
+	{
+		margin-right: 10px;
+	}
+	.listing_tags ul li a
+	{
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.listing_tags ul li a span
+	{
+		margin-left: 11px;
+	}
+	.listings_container
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.listing_box
+	{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+/************
+5. 575px
+************/
+
+
+@media only screen and (max-width: 575px){
+	h1{
+		font-size: 36px;
+	}
+	p{
+		font-size: 13px;
+	}
+	.button
+	{
+		width: 165px;
+		height: 47px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 47px;
+	}
+	.search_input
+	{
+		height: 45px;
+		font-size: 14px;
+		padding-left: 20px;
+	}
+	.search_input::-webkit-input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.search_input:-moz-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.search_input::-moz-placeholder
+	{
+		font-size: 13px !important;
+	} 
+	.search_input:-ms-input-placeholder
+	{ 
+		font-size: 13px !important;
+	}
+	.search_input::input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.search_button
+	{
+		width: 188px;
+		height: 45px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+}
